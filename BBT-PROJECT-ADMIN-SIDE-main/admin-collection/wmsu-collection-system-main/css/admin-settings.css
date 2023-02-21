@@ -1,0 +1,72 @@
+.graphBox{
+    position:relative;
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    height: 95px;    
+}
+
+.list-group-item:hover:not(.list-group-item.active){
+    background-color: #555;
+    color: white;
+  }
+#funds.active{
+
+    background-color: #555;
+    color: white;
+    
+
+}
+#funds{
+    font-size: 20px;
+    text-align: center; 
+    border-style:inset; 
+    padding-top: 10px;
+    border-color:black;
+}
+.box{
+    background-color: #fff;
+    color: black;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.884);
+    border-radius: 20px;
+    padding-bottom: 0px;
+}
+.boxing{
+    position:relative;
+    width: 100%;
+    padding: 90px;
+    display: grid;
+    margin-top: -75px;
+    grid-gap: 100px;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 4px;
+}
+.container{
+    background-color: #fff;
+    max-width: 80%;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.265);
+
+}
+#search-input{
+    margin-bottom: 10px;
+}
+.table-responsive{
+    display:flex;
+    margin-bottom: 35px;
+
+}
+.graphPa{
+    justify-content: center;
+}
+.h2, h2, h3, h3, h4, h4, h5, h5{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 15px;
+}
+#lakatan{
+    display:grid;
+}
